@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2017, 11:41:51 AM
+    Author     : jhill
+*/
+
+#titleLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: blue;
+
+}
+
+.root{
+    -fx-background: LightGrey;
+}
+
+#leftGrid{
+
+    -fx-padding: 1;
+    -fx-border-style: solid inside;
+    -fx-border-width: 1;
+    -fx-border-insets: 20;
+    -fx-border-radius: 10;
+    -fx-border-color: black;
+
+
+
+}
+#rightGrid{
+    -fx-padding: 1;
+    -fx-border-style: solid inside;
+    -fx-border-width: 1;
+    -fx-border-insets: 20;
+    -fx-border-radius: 10;
+    -fx-border-color: black;
+}
+
+.button{
+    -fx-pref-width: 60px;
+    -fx-font-size: 10px;
+}
+
+#addPart {
+    -fx-font-size: 20px;
+    -fx-text-fill: blue;
+
+}
+
+#idField {
+    -fx-background-color: lightgrey;
+    -fx-border-style: solid inside;
+    -fx-border-color: black;
+}
+
+#searchButton {
+    -fx-align: right;
+}
